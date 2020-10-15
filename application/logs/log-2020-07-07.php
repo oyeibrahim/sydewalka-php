@@ -1,0 +1,21 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2020-07-07 05:08:51 --> Severity: Compile Error --> Cannot redeclare Web_model::balanceReturn() C:\xampp\htdocs\libopro\application\models\website\Web_model.php 335
+ERROR - 2020-07-07 05:08:51 --> Severity: Compile Error --> Cannot redeclare Web_model::balanceReturn() C:\xampp\htdocs\libopro\application\models\website\Web_model.php 335
+ERROR - 2020-07-07 05:08:51 --> Severity: Compile Error --> Cannot redeclare Web_model::balanceReturn() C:\xampp\htdocs\libopro\application\models\website\Web_model.php 335
+ERROR - 2020-07-07 05:08:51 --> Severity: Compile Error --> Cannot redeclare Web_model::balanceReturn() C:\xampp\htdocs\libopro\application\models\website\Web_model.php 335
+ERROR - 2020-07-07 05:08:52 --> Severity: Compile Error --> Cannot redeclare Web_model::balanceReturn() C:\xampp\htdocs\libopro\application\models\website\Web_model.php 335
+ERROR - 2020-07-07 05:08:52 --> Severity: Compile Error --> Cannot redeclare Web_model::balanceReturn() C:\xampp\htdocs\libopro\application\models\website\Web_model.php 335
+ERROR - 2020-07-07 05:08:52 --> Severity: Compile Error --> Cannot redeclare Web_model::balanceReturn() C:\xampp\htdocs\libopro\application\models\website\Web_model.php 335
+ERROR - 2020-07-07 05:08:53 --> Severity: Compile Error --> Cannot redeclare Web_model::balanceReturn() C:\xampp\htdocs\libopro\application\models\website\Web_model.php 335
+ERROR - 2020-07-07 05:08:54 --> Severity: Compile Error --> Cannot redeclare Web_model::balanceReturn() C:\xampp\htdocs\libopro\application\models\website\Web_model.php 335
+ERROR - 2020-07-07 05:08:54 --> Severity: Compile Error --> Cannot redeclare Web_model::balanceReturn() C:\xampp\htdocs\libopro\application\models\website\Web_model.php 335
+ERROR - 2020-07-07 05:08:55 --> Severity: Compile Error --> Cannot redeclare Web_model::balanceReturn() C:\xampp\htdocs\libopro\application\models\website\Web_model.php 335
+ERROR - 2020-07-07 05:08:55 --> Severity: Compile Error --> Cannot redeclare Web_model::balanceReturn() C:\xampp\htdocs\libopro\application\models\website\Web_model.php 335
+ERROR - 2020-07-07 05:08:56 --> Severity: Compile Error --> Cannot redeclare Web_model::balanceReturn() C:\xampp\htdocs\libopro\application\models\website\Web_model.php 335
+ERROR - 2020-07-07 05:08:56 --> Severity: Compile Error --> Cannot redeclare Web_model::balanceReturn() C:\xampp\htdocs\libopro\application\models\website\Web_model.php 335
+ERROR - 2020-07-07 05:08:57 --> Severity: Compile Error --> Cannot redeclare Web_model::balanceReturn() C:\xampp\htdocs\libopro\application\models\website\Web_model.php 335
+ERROR - 2020-07-07 11:35:38 --> Severity: Error --> Maximum execution time of 30 seconds exceeded C:\xampp\htdocs\libopro\system\database\drivers\mysqli\mysqli_driver.php 317
+ERROR - 2020-07-07 09:57:42 --> Query error: Column 'bid_price' cannot be null - Invalid query: INSERT INTO `dbt_biding_log` (`bid_id`, `type`, `order_type`, `bid_type`, `bid_price`, `complete_qty`, `complete_amount`, `user_id`, `currency_symbol`, `market_symbol`, `success_time`, `qty_fees`, `amount_fees`, `available_amount`, `is_maker`, `status`) VALUES (49, 'MARKET', 'MAKER', 'BUY', NULL, '1.00000000', '0.00000000', 'LISNK9', 'BTC', 'BTC_USDT', '2020-07-07 09:57:42', 0, 0, 0, 1, 0)
+ERROR - 2020-07-07 09:59:28 --> Query error: Column 'bid_price' cannot be null - Invalid query: INSERT INTO `dbt_biding_log` (`bid_id`, `type`, `order_type`, `bid_type`, `bid_price`, `complete_qty`, `complete_amount`, `user_id`, `currency_symbol`, `market_symbol`, `success_time`, `qty_fees`, `amount_fees`, `available_amount`, `is_maker`, `status`) VALUES (50, 'MARKET', 'MAKER', 'BUY', NULL, '1.00000000', '0.00000000', 'LISNK9', 'BTC', 'BTC_USDT', '2020-07-07 09:59:28', 0, 0, 0, 1, 0)
+ERROR - 2020-07-07 10:00:54 --> Query error: Column 'bid_price' cannot be null - Invalid query: INSERT INTO `dbt_biding_log` (`bid_id`, `type`, `order_type`, `bid_type`, `bid_price`, `complete_qty`, `complete_amount`, `user_id`, `currency_symbol`, `market_symbol`, `success_time`, `qty_fees`, `amount_fees`, `available_amount`, `is_maker`, `status`) VALUES (51, 'MARKET', 'MAKER', 'BUY', NULL, '1.00000000', '0.00000000', 'LISNK9', 'BTC', 'BTC_USDT', '2020-07-07 10:00:54', 0, 0, 0, 1, 0)

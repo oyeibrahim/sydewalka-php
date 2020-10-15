@@ -1,0 +1,5 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2020-07-03 10:11:38 --> Query error: Unknown column 'fees_amount' in 'field list' - Invalid query: SELECT MONTHNAME(`success_time`) as month, SUM(`fees_amount`) as fees FROM `dbt_biding_log` WHERE `currency_symbol`='BTC' GROUP BY YEAR(`success_time`), MONTH(`success_time`)
+ERROR - 2020-07-03 10:14:04 --> Query error: Unknown column 'fees_amount' in 'field list' - Invalid query: SELECT IF(`bid_type`='BUY', SUBSTRING_INDEX(`market_symbol`,'_',-1), `currency_symbol`) as currency_symbol, SUBSTRING_INDEX(`market_symbol`,'_',-1) as currency_symbol2, SUM(`fees_amount`) as fees_amount FROM dbt_biding WHERE `status`=1 GROUP BY IF(`bid_type`='BUY', `currency_symbol2`, `currency_symbol`) ORDER BY `dbt_biding`.`currency_symbol` ASC
+ERROR - 2020-07-03 09:05:52 --> Severity: error --> Exception: Too few arguments to function Web_model::checkBalance(), 1 passed in C:\xampp\htdocs\libopro\application\controllers\Home.php on line 280 and exactly 2 expected C:\xampp\htdocs\libopro\application\models\website\Web_model.php 207
